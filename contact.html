@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Hyde Park International</title>
+  <meta name="description" content="Get in touch with Hyde Park International. Contact our Mayfair office for household staffing enquiries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">HPI</a>
+      <div class="nav__links">
+        <a href="about.html" class="nav__link">About</a>
+        <a href="families.html" class="nav__link">Services</a>
+        <a href="vacancies.html" class="nav__link">Vacancies</a>
+        <a href="testimonials.html" class="nav__link">Testimonials</a>
+        <a href="contact.html" class="nav__link active">Contact</a>
+        <a href="#enquiry-modal" class="nav__cta" data-modal="enquiry">Enquire</a>
+      </div>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav__mobile" id="mobileNav">
+    <a href="about.html">About</a>
+    <a href="families.html">Services</a>
+    <a href="vacancies.html">Vacancies</a>
+    <a href="candidates.html">Candidates</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="contact.html">Contact</a>
+    <a href="#enquiry-modal" class="btn btn--gold btn--sm" data-modal="enquiry">Enquire</a>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero hero--inner">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <span class="hero__label">Contact Us</span>
+      <h1>We Would Love to Hear From You</h1>
+      <p class="hero__subtitle">Get in touch with our team to discuss your household staffing requirements or to explore career opportunities.</p>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2" style="gap: 80px; align-items: start;">
+        
+        <!-- Contact Info -->
+        <div class="reveal">
+          <span class="section-label">Get in Touch</span>
+          <h2>Our London <em class="text-accent">Office</em></h2>
+          <p class="section-subtitle" style="max-width: none;">We welcome enquiries from families and candidates worldwide. Contact us using the details below or complete the form and we will respond within 24 hours.</p>
+
+          <div class="mt-48">
+            <div class="feature" style="padding-left: 0;">
+              <div class="feature__icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>
+              </div>
+              <div>
+                <h4>Address</h4>
+                <p>Hyde Park House<br>Mayfair, London W1K<br>United Kingdom</p>
+              </div>
+            </div>
+
+            <div class="feature" style="padding-left: 0;">
+              <div class="feature__icon">
+                <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              </div>
+              <div>
+                <h4>Telephone</h4>
+                <p><a href="tel:+442071234567">+44 (0) 207 123 4567</a></p>
+              </div>
+            </div>
+
+            <div class="feature" style="padding-left: 0;">
+              <div class="feature__icon">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p><a href="mailto:enquiries@hydeparkinternational.com">enquiries@hydeparkinternational.com</a></p>
+              </div>
+            </div>
+
+            <div class="feature" style="padding-left: 0;">
+              <div class="feature__icon">
+                <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+              </div>
+              <div>
+                <h4>Office Hours</h4>
+                <p>Monday – Friday: 9:00 AM – 6:00 PM<br>Saturday: By appointment<br>Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="form-card reveal reveal-delay-2">
+          <h3 class="mb-24">Send a Message</h3>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="ct-name">Full Name</label>
+                <input type="text" id="ct-name" name="name" required placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <label for="ct-email">Email</label>
+                <input type="email" id="ct-email" name="email" required placeholder="you@example.com">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="ct-phone">Phone</label>
+                <input type="tel" id="ct-phone" name="phone" placeholder="+44 7XXX XXX XXX">
+              </div>
+              <div class="form-group">
+                <label for="ct-type">Enquiry Type</label>
+                <select id="ct-type" name="type" required>
+                  <option value="" disabled selected>Select one</option>
+                  <option value="family">I am a family looking for staff</option>
+                  <option value="candidate">I am a candidate seeking a role</option>
+                  <option value="general">General enquiry</option>
+                  <option value="media">Press / media enquiry</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="ct-subject">Subject</label>
+              <input type="text" id="ct-subject" name="subject" placeholder="How can we help?">
+            </div>
+            <div class="form-group">
+              <label for="ct-message">Message</label>
+              <textarea id="ct-message" name="message" rows="5" required placeholder="Please provide as much detail as possible..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary" style="width:100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MAP PLACEHOLDER ========== -->
+  <section class="section section--alt">
+    <div class="container text-center reveal">
+      <div style="background: var(--color-navy-light); border: 1px solid var(--color-border); border-radius: var(--radius-lg); height: 400px; display: flex; align-items: center; justify-content: center;">
+        <div>
+          <svg viewBox="0 0 24 24" style="width: 48px; height: 48px; fill: var(--color-gold); margin-bottom: 16px;"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>
+          <h3>Mayfair, London W1K</h3>
+          <p style="color: var(--color-text-muted); font-size: 0.92rem; margin-top: 8px;">Located in the heart of London's most prestigious district</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">Hyde Park <span>International</span></div>
+          <p class="footer__desc">London's premier household and nanny recruitment agency, serving distinguished families across the globe with discretion, integrity and excellence.</p>
+        </div>
+        <div>
+          <h5>For Families</h5>
+          <ul class="footer__links">
+            <li><a href="families.html">Our Process</a></li>
+            <li><a href="families.html">Find Staff</a></li>
+            <li><a href="vacancies.html">Current Vacancies</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>For Candidates</h5>
+          <ul class="footer__links">
+            <li><a href="candidates.html">Register</a></li>
+            <li><a href="vacancies.html">Browse Roles</a></li>
+            <li><a href="candidates.html#vetting">Vetting Process</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <ul class="footer__links">
+            <li><a href="mailto:enquiries@hydeparkinternational.com">enquiries@hydeparkinternational.com</a></li>
+            <li><a href="tel:+442071234567">+44 (0) 207 123 4567</a></li>
+            <li>Hyde Park House</li>
+            <li>Mayfair, London W1K</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Hyde Park International. All rights reserved.</span>
+        <div class="footer__social">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta" id="floatingCta">
+    <button class="floating-cta__btn" data-modal="enquiry">
+      <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      Enquire Now
+    </button>
+  </div>
+
+  <!-- Enquiry Modal -->
+  <div class="modal-overlay" id="enquiryModal">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="modal__close" data-close-modal aria-label="Close">
+        <svg viewBox="0 0 14 14"><path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+      </button>
+      <span class="section-label">Quick Enquiry</span>
+      <h3>Get in Touch</h3>
+      <p>Tell us what you&rsquo;re looking for and we&rsquo;ll respond within 24 hours.</p>
+      <form id="enquiryForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="eq-name">Full Name</label>
+            <input type="text" id="eq-name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="eq-email">Email</label>
+            <input type="email" id="eq-email" name="email" required placeholder="you@example.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="eq-type">I am a...</label>
+          <select id="eq-type" name="type" required>
+            <option value="" disabled selected>Select one</option>
+            <option value="family">Family looking for staff</option>
+            <option value="candidate">Candidate seeking a role</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="eq-message">Message</label>
+          <textarea id="eq-message" name="message" rows="4" placeholder="Tell us about your requirements..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary" style="width:100%;">Send Enquiry</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
